@@ -1,2 +1,6 @@
-package com.valentine.users;public interface UserRepository {
+package com.valentine.users;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<User, Integer> {
 }
