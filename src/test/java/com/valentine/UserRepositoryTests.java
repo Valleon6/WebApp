@@ -1,8 +1,7 @@
 package com.valentine;
 
-import com.valentine.users.User;
-import com.valentine.users.UserRepository;
-import jakarta.persistence.Column;
+import com.valentine.user.User;
+import com.valentine.user.UserRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

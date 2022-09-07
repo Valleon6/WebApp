@@ -1,4 +1,4 @@
-package com.valentine.users;
+package com.valentine.user;
 
 import jakarta.persistence.*;
 
